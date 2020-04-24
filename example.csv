@@ -1,0 +1,10 @@
+==1044== NVPROF is profiling process 1044, command: python3 main.py
+==1044== Profiling application: python3 main.py
+==1044== Profiling result:
+"Start","Duration","Grid X","Grid Y","Grid Z","Block X","Block Y","Block Z","Registers Per Thread","Static SMem","Dynamic SMem","Size","Throughput","SrcMemType","DstMemType","Device","Context","Stream","Name"
+s,ms,,,,,,,,KB,KB,MB,GB/s,,,,,,
+2.001862,0.001536,,,,,,,,,,0.001099,0.698492,"Pageable","Device","Tesla K20c (0)","1","7","[CUDA memcpy HtoD]"
+2.002037,0.000960,,,,,,,,,,0.000122,0.124176,"Pageable","Device","Tesla K20c (0)","1","7","[CUDA memcpy HtoD]"
+2.002135,0.024768,,,,,,,,,,0.070312,2.772309,"Pageable","Device","Tesla K20c (0)","1","7","[CUDA memcpy HtoD]"
+2.002224,0.000928,,,,,,,,,,0.000244,0.256917,"Pageable","Device","Tesla K20c (0)","1","7","[CUDA memcpy HtoD]"
+2.002634,1.446743,,,,,,,,,,4.500000,3.037534,"Pageable","Device","Tesla K20c (0)","1","7","[CUDA memcpy HtoD]"
